@@ -1,0 +1,117 @@
+# Переменные окружения
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Виртуальное окружение Python
+venv/
+env/
+.venv/
+.python-version
+
+# Кэши и временные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.idea/
+.vscode/
+
+# Дистрибутивы и сборки
+dist/
+build/
+*.egg-info/
+
+# Файлы данных и модели (могут быть большими)
+data/
+!data/json/
+models/
+*.faiss
+*.pkl
+*.pth
+*.bin
+*.onnx
+
+# Логи и отчеты
+logs/
+*.log
+report.html
+
+# Файлы системы
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Среда Python
+venv/
+env/
+.env
+.venv
+ENV/
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Файлы данных и модели
+*.faiss
+*.pkl
+*.bin
+*.pt
+*.h5
+data/
+!data/json/
+!data/.gitkeep
+models/
+
+# Логи и временные файлы
+logs/
+*.log
+*.tmp
+.DS_Store
+.coverage
+htmlcov/
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.spyderproject
+.spyproject
+.ropeproject
+.project
+.pydevproject 
